@@ -1,0 +1,10 @@
+name: latex-box
+version: 0.0.1
+description: latex box
+inherits: wercker/ubuntu12.04-webessentials@0.0.3
+type: main
+platform: ubuntu@12.04
+
+script:
+  sudo apt-get -y update
+  sudo apt-get -y install texlive-lang-cjk xdvik-ja
