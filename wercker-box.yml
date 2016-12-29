@@ -1,6 +1,6 @@
 name: latex-box
 version: 0.0.5
-description: latex box
+description: latex box and pandoc
 inherits: wercker/ubuntu12.04-webessentials@0.0.3
 type: main
 platform: ubuntu@12.04
