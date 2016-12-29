@@ -9,3 +9,4 @@ script: |
   sudo apt-add-repository -y ppa:texlive-backports/ppa
   sudo apt-get -y update
   sudo apt-get -y install texlive-lang-cjk xdvik-ja
+  sudo apt-get -y install pandoc wget
